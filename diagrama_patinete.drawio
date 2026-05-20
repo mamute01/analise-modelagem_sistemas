@@ -1,9 +1,93 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="luZHcSOEefs8F1qSMq80">
-    <mxGraphModel dx="854" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="854" dy="1634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="usuário" vertex="1">
+          <mxGeometry height="60" width="30" x="690" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-8" edge="1" parent="1" source="aeWjD2Yy18CSq1gsI2oi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="aeWjD2Yy18CSq1gsI2oi-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="realiza o cadastro" vertex="1">
+          <mxGeometry height="30" width="100" x="655" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-6" edge="1" parent="1" source="aeWjD2Yy18CSq1gsI2oi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="aeWjD2Yy18CSq1gsI2oi-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="aluga o patinete&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="100" x="530" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="efetua pagamento" vertex="1">
+          <mxGeometry height="30" width="100" x="780" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-15" edge="1" parent="1" source="aeWjD2Yy18CSq1gsI2oi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="aeWjD2Yy18CSq1gsI2oi-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="realiza devolução de patinete em locais específicos&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="55" width="155" x="765" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-17" edge="1" parent="1" source="aeWjD2Yy18CSq1gsI2oi-9" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="aeWjD2Yy18CSq1gsI2oi-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="740" y="110" as="sourcePoint" />
+            <mxPoint x="790" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="gerente operacional&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="registra os cadastros&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="120" x="310" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="administra os alugueis de patinetes" vertex="1">
+          <mxGeometry height="60" width="130" x="160" y="-182.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="consulta mapa com localização dos patinetes&lt;div&gt;disponiveis&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="460" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-28" edge="1" parent="1" source="aeWjD2Yy18CSq1gsI2oi-1" style="endArrow=none;html=1;rounded=0;entryX=0.933;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;" target="aeWjD2Yy18CSq1gsI2oi-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="605" y="25" as="sourcePoint" />
+            <mxPoint x="655" y="-25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="realiza desbloqueio de patinete via qr code&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="140" x="800" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-31" edge="1" parent="1" source="aeWjD2Yy18CSq1gsI2oi-1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="750" y="30" as="sourcePoint" />
+            <mxPoint x="800" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&amp;nbsp;cadastra técnico de manutenção&amp;nbsp;" vertex="1">
+          <mxGeometry height="45" width="130" x="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-34" edge="1" parent="1" source="aeWjD2Yy18CSq1gsI2oi-20" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aeWjD2Yy18CSq1gsI2oi-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="60" as="sourcePoint" />
+            <mxPoint x="160" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-37" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="cadastra administrador financeiro&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="130" x="160" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="cadastra novos patinetes&amp;nbsp;" vertex="1">
+          <mxGeometry height="35" width="110" x="30" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-41" edge="1" parent="1" source="aeWjD2Yy18CSq1gsI2oi-20" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aeWjD2Yy18CSq1gsI2oi-37" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="100" y="95" as="sourcePoint" />
+            <mxPoint x="150" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-42" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="proprietário&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="aeWjD2Yy18CSq1gsI2oi-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="cadastra&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="110" x="130" y="270" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
